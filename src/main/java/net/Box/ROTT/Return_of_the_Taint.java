@@ -1,5 +1,7 @@
 package net.Box.ROTT;
 
+import ROTT.common.blocks.ROTT_Blocks;
+import ROTT.common.items.ROTT_Items;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +26,9 @@ public class Return_of_the_Taint {
 
     public Return_of_the_Taint(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ROTT_Items.register(modEventBus);
+        ROTT_Blocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
