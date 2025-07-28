@@ -1,5 +1,6 @@
 package net.Box.ROTT;
 
+import net.Box.ROTT.block.ROTT_Blocks;
 import net.Box.ROTT.item.ROTT_Items;
 import net.Box.ROTT.item.ROTT_CreativeTab;
 import com.mojang.logging.LogUtils;
@@ -27,6 +28,7 @@ public class Return_of_the_Taint {
 
         ROTT_CreativeTab.register(modEventBus);
 
+        ROTT_Blocks.register(modEventBus);
         ROTT_Items.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
