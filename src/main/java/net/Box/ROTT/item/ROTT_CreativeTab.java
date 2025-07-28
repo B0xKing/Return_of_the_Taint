@@ -1,6 +1,7 @@
 package net.Box.ROTT.item;
 
 import net.Box.ROTT.Return_of_the_Taint;
+import net.Box.ROTT.block.ROTT_Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,8 @@ public class ROTT_CreativeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ROTT_Items.TAINT_CLUMP.get()))
                     .title(Component.translatable("creative_tab.rott_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ROTT_Blocks.TAINTED_SOIL.get());
+
                         output.accept(ROTT_Items.TAINT_CLUMP.get());
                     })
                     .build());
