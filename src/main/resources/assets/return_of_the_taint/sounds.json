@@ -1,0 +1,37 @@
+{
+  "taint_soil_break": {
+    "subtitle": "sounds.return_of_the_taint.taint_soil_break",
+    "sounds": [
+      "return_of_the_taint:gore1",
+      "return_of_the_taint:gore2"
+    ]
+  },
+  "taint_soil_step": {
+    "subtitle": "sounds.return_of_the_taint.taint_soil_step",
+    "sounds": [
+      "return_of_the_taint:gore1",
+      "return_of_the_taint:gore2"
+    ]
+  },
+  "taint_soil_fall": {
+    "subtitle": "sounds.return_of_the_taint.taint_soil_fall",
+    "sounds": [
+      "return_of_the_taint:gore1",
+      "return_of_the_taint:gore2"
+    ]
+  },
+  "taint_soil_place": {
+    "subtitle": "sounds.return_of_the_taint.taint_soil_place",
+    "sounds": [
+      "return_of_the_taint:gore1",
+      "return_of_the_taint:gore2"
+    ]
+  },
+  "taint_soil_hit": {
+    "subtitle": "sounds.return_of_the_taint.taint_soil_hit",
+    "sounds": [
+      "return_of_the_taint:gore1",
+      "return_of_the_taint:gore2"
+    ]
+  }
+}

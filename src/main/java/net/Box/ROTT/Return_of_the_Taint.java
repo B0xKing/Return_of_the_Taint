@@ -4,6 +4,7 @@ import net.Box.ROTT.block.ROTT_Blocks;
 import net.Box.ROTT.item.ROTT_Items;
 import net.Box.ROTT.item.ROTT_CreativeTab;
 import com.mojang.logging.LogUtils;
+import net.Box.ROTT.sound.ROTT_Sounds;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +31,8 @@ public class Return_of_the_Taint {
 
         ROTT_Blocks.register(modEventBus);
         ROTT_Items.register(modEventBus);
+
+        ROTT_Sounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

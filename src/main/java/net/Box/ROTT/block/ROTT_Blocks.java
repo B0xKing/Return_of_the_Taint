@@ -2,6 +2,7 @@ package net.Box.ROTT.block;
 
 import net.Box.ROTT.Return_of_the_Taint;
 import net.Box.ROTT.item.ROTT_Items;
+import net.Box.ROTT.sound.ROTT_Sounds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,7 +20,7 @@ public class ROTT_Blocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Return_of_the_Taint.MOD_ID);
 
     public static final RegistryObject<Block> TAINTED_SOIL = registerBlock("tainted_soil",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(ROTT_Sounds.TAINT_SOIL_SOUNDS)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

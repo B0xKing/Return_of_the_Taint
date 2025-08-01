@@ -3,5 +3,11 @@
 
   "item.return_of_the_taint.taint_clump": "Taint Clump",
 
+  "sounds.return_of_the_taint.taint_soil_break": "Taint Soil Breaks",
+  "sounds.return_of_the_taint.taint_soil_step": "Taint Soil Step",
+  "sounds.return_of_the_taint.taint_soil_fall": "Taint Soil Land",
+  "sounds.return_of_the_taint.taint_soil_place": "Taint Soil Places",
+  "sounds.return_of_the_taint.taint_soil_hit": "Taint Soil Hits",
+
   "creative_tab.rott_tab": "Return of the Taint"
 }
