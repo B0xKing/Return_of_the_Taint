@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "return_of_the_taint:block/tainted_stone"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "block.return_of_the_taint.tainted_soil": "Tainted Soil",
+  "block.return_of_the_taint.tainted_stone": "Tainted Stone",
 
   "item.return_of_the_taint.taint_clump": "Taint Clump",
 
@@ -8,6 +9,11 @@
   "sounds.return_of_the_taint.taint_soil_fall": "Taint Soil Land",
   "sounds.return_of_the_taint.taint_soil_place": "Taint Soil Places",
   "sounds.return_of_the_taint.taint_soil_hit": "Taint Soil Hits",
+  "sounds.return_of_the_taint.taint_stone_break": "Taint Stone Breaks",
+  "sounds.return_of_the_taint.taint_stone_step": "Taint Stone Step",
+  "sounds.return_of_the_taint.taint_stone_fall": "Taint Stone Land",
+  "sounds.return_of_the_taint.taint_stone_place": "Taint Stone Places",
+  "sounds.return_of_the_taint.taint_stone_hit": "Taint Stone Hits",
 
   "creative_tab.rott_tab": "Return of the Taint"
 }

@@ -18,10 +18,20 @@ public class ROTT_Sounds {
     public static final RegistryObject<SoundEvent> TAINT_SOIL_FALL = registerSoundEvents("taint_soil_fall");
     public static final RegistryObject<SoundEvent> TAINT_SOIL_PLACE = registerSoundEvents("taint_soil_place");
     public static final RegistryObject<SoundEvent> TAINT_SOIL_HIT = registerSoundEvents("taint_soil_hit");
+    public static final RegistryObject<SoundEvent> TAINT_STONE_BREAK = registerSoundEvents("taint_stone_break");
+    public static final RegistryObject<SoundEvent> TAINT_STONE_STEP = registerSoundEvents("taint_stone_step");
+    public static final RegistryObject<SoundEvent> TAINT_STONE_FALL = registerSoundEvents("taint_stone_fall");
+    public static final RegistryObject<SoundEvent> TAINT_STONE_PLACE = registerSoundEvents("taint_stone_place");
+    public static final RegistryObject<SoundEvent> TAINT_STONE_HIT = registerSoundEvents("taint_stone_hit");
 
     public static final ForgeSoundType TAINT_SOIL_SOUNDS = new ForgeSoundType(1f, 1f,
             ROTT_Sounds.TAINT_SOIL_BREAK, ROTT_Sounds.TAINT_SOIL_STEP, ROTT_Sounds.TAINT_SOIL_PLACE,
             ROTT_Sounds.TAINT_SOIL_HIT, ROTT_Sounds.TAINT_SOIL_FALL);
+
+    public static final ForgeSoundType TAINT_STONE_SOUNDS = new ForgeSoundType(1f, 1f,
+            ROTT_Sounds.TAINT_STONE_BREAK, ROTT_Sounds.TAINT_STONE_STEP, ROTT_Sounds.TAINT_STONE_PLACE,
+            ROTT_Sounds.TAINT_STONE_HIT, ROTT_Sounds.TAINT_STONE_FALL);
+
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Return_of_the_Taint.MOD_ID, name)));

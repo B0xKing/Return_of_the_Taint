@@ -22,6 +22,9 @@ public class ROTT_Blocks {
     public static final RegistryObject<Block> TAINTED_SOIL = registerBlock("tainted_soil",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(ROTT_Sounds.TAINT_SOIL_SOUNDS)));
 
+    public static final RegistryObject<Block> TAINTED_STONE = registerBlock("tainted_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(ROTT_Sounds.TAINT_STONE_SOUNDS)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

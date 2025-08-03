@@ -19,6 +19,7 @@ public class ROTT_CreativeTab {
                     .title(Component.translatable("creative_tab.rott_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ROTT_Blocks.TAINTED_SOIL.get());
+                        output.accept(ROTT_Blocks.TAINTED_STONE.get());
 
                         output.accept(ROTT_Items.TAINT_CLUMP.get());
                     })
