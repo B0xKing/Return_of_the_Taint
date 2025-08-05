@@ -11,7 +11,7 @@ public class ROTT_Items {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Return_of_the_Taint.MOD_ID);
 
-    public static final RegistryObject<Item> TAINT_CLUMP = ITEMS.register("taint_clump",
+    public static final RegistryObject<Item> TAINTED_SLIME = ITEMS.register("tainted_slime",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
