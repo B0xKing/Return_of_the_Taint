@@ -21,7 +21,7 @@ public class ROTT_CreativeTab {
                         output.accept(ROTT_Blocks.TAINTED_SOIL.get());
                         output.accept(ROTT_Blocks.TAINTED_STONE.get());
 
-                        output.accept(ROTT_Items.TAINT_CLUMP.get());
+                        output.accept(ROTT_Items.TAINTED_SLIME.get());
                     })
                     .build());
 
