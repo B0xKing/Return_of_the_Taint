@@ -1,0 +1,7 @@
+// 1.20.1	2025-09-10T14:29:14.8490142	Block States: return_of_the_taint
+f22d3c3917e093b55fc43bdae186b92ae343428d assets/return_of_the_taint/blockstates/tainted_soil.json
+2ae32c7fd5597cab90f264efedd62506231804e7 assets/return_of_the_taint/blockstates/tainted_stone.json
+06457219f8ff867f44045a0281c71402f9fe796d assets/return_of_the_taint/models/block/tainted_soil.json
+d91d206a162af94be8c6d5e4a772aceaf0084a1a assets/return_of_the_taint/models/block/tainted_stone.json
+dbbc1af8a349ef90455cdda6115156629c81b478 assets/return_of_the_taint/models/item/tainted_soil.json
+180d1ed69b091be5a33f195c3c071bef1fc0af98 assets/return_of_the_taint/models/item/tainted_stone.json

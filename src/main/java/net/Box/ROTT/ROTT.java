@@ -18,13 +18,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Return_of_the_Taint.MOD_ID)
-public class Return_of_the_Taint {
+@Mod(ROTT.MOD_ID)
+public class ROTT {
 
     public static final String MOD_ID = "return_of_the_taint";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Return_of_the_Taint(FMLJavaModLoadingContext context) {
+    public ROTT(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         ROTT_CreativeTab.register(modEventBus);
