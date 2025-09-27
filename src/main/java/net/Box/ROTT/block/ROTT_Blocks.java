@@ -26,6 +26,15 @@ public class ROTT_Blocks {
     public static final RegistryObject<Block> TAINTED_STONE = registerBlock("tainted_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(ROTT_Sounds.TAINT_STONE_SOUNDS)));
 
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
+
+    public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)));
+
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
+
     //public static final RegistryObject<Block> TAINTED_LOG = registerBlock("tainted_log",
             //() -> new ROTT_FlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(ROTT_Sounds.TAINT_LOG_SOUNDS)));
     //public static final RegistryObject<Block> TAINTED_WOOD = registerBlock("tainted_wood",

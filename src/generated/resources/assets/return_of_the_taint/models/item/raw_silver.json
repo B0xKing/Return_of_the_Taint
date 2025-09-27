@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "return_of_the_taint:item/raw_silver"
+  }
+}

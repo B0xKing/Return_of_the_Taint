@@ -18,6 +18,9 @@ public class ROTT_ItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ROTT_Items.TAINTED_SLIME);
+        simpleItem(ROTT_Items.RAW_SILVER);
+        simpleItem(ROTT_Items.SILVER_INGOT);
+        simpleItem(ROTT_Items.SILVER_NUGGET);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

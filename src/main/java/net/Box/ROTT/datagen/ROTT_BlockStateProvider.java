@@ -17,6 +17,9 @@ public class ROTT_BlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ROTT_Blocks.TAINTED_SOIL);
         blockWithItem(ROTT_Blocks.TAINTED_STONE);
+        blockWithItem(ROTT_Blocks.SILVER_ORE);
+        blockWithItem(ROTT_Blocks.DEEPSLATE_SILVER_ORE);
+        blockWithItem(ROTT_Blocks.SILVER_BLOCK);
         //blockWithItem(ROTT_Blocks.TAINTED_LOG);
         //blockWithItem(ROTT_Blocks.TAINTED_WOOD);
     }

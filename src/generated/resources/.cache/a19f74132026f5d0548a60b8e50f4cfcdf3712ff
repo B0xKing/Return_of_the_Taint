@@ -1,2 +1,5 @@
-// 1.20.1	2025-09-10T14:29:14.8530161	Item Models: return_of_the_taint
+// 1.20.1	2025-09-27T19:40:27.4585575	Item Models: return_of_the_taint
+baaccd2cd00e24d48c378037771215111e2e7939 assets/return_of_the_taint/models/item/raw_silver.json
+4b420c961b299d132d2b5affd917991dfdaad614 assets/return_of_the_taint/models/item/silver_ingot.json
+d93d78bd0f75a4e506cdb858be94725b53988058 assets/return_of_the_taint/models/item/silver_nugget.json
 47f8accfeb742dcfe9905d34b304bf850ad609ee assets/return_of_the_taint/models/item/tainted_slime.json
