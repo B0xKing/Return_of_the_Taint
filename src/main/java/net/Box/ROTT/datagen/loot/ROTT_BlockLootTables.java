@@ -19,6 +19,7 @@ public class ROTT_BlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ROTT_Blocks.TAINTED_STONE.get());
         this.dropSelf(ROTT_Blocks.SILVER_ORE.get());
         this.dropSelf(ROTT_Blocks.DEEPSLATE_SILVER_ORE.get());
+        this.dropSelf(ROTT_Blocks.RAW_SILVER_BLOCK.get());
         this.dropSelf(ROTT_Blocks.SILVER_BLOCK.get());
         //this.dropSelf(ROTT_Blocks.TAINTED_LOG.get());
         //this.dropSelf(ROTT_Blocks.TAINTED_WOOD.get());

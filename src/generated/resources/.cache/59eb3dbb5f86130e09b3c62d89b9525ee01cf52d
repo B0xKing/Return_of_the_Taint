@@ -1,5 +1,6 @@
-// 1.20.1	2025-09-27T19:40:27.4575561	Loot Tables
+// 1.20.1	2025-09-28T12:34:07.9351266	Loot Tables
 37521aa1acf8f734f001972f5d8e5574131b40d3 data/return_of_the_taint/loot_tables/blocks/deepslate_silver_ore.json
+7da680870aa7d9226361ac308bdd1530f7b2d013 data/return_of_the_taint/loot_tables/blocks/raw_silver_block.json
 95494ebc5e1d9f0d0df94934a6c0ec537fbbfbe7 data/return_of_the_taint/loot_tables/blocks/silver_block.json
 0006018e420f7ff33d0535c0cbe2d505b350377e data/return_of_the_taint/loot_tables/blocks/silver_ore.json
 07678e5896098848644701b36cbd860e9cfe9466 data/return_of_the_taint/loot_tables/blocks/tainted_soil.json

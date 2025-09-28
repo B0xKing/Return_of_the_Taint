@@ -32,6 +32,9 @@ public class ROTT_Blocks {
     public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)));
 
+    public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)));
+
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
 

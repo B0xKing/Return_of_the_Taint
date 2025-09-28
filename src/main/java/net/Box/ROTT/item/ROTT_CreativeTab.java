@@ -22,10 +22,15 @@ public class ROTT_CreativeTab {
                         output.accept(ROTT_Blocks.TAINTED_STONE.get());
                         output.accept(ROTT_Blocks.SILVER_ORE.get());
                         output.accept(ROTT_Blocks.DEEPSLATE_SILVER_ORE.get());
+                        output.accept(ROTT_Blocks.RAW_SILVER_BLOCK.get());
+                        output.accept(ROTT_Blocks.SILVER_BLOCK.get());
                         //output.accept(ROTT_Blocks.TAINTED_LOG.get());
                         //output.accept(ROTT_Blocks.TAINTED_WOOD.get());
 
                         output.accept(ROTT_Items.TAINTED_SLIME.get());
+                        output.accept(ROTT_Items.RAW_SILVER.get());
+                        output.accept(ROTT_Items.SILVER_INGOT.get());
+                        output.accept(ROTT_Items.SILVER_NUGGET.get());
                     })
                     .build());
 

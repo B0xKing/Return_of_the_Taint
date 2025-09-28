@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "return_of_the_taint:raw_silver_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "return_of_the_taint:blocks/raw_silver_block"
+}

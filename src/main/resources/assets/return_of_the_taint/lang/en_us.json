@@ -5,8 +5,13 @@
   "block.return_of_the_taint.tainted_wood": "Tainted Wood",
   "block.return_of_the_taint.silver_ore": "Silver Ore",
   "block.return_of_the_taint.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.return_of_the_taint.raw_silver_block": "Raw Silver Block",
+  "block.return_of_the_taint.silver_block": "Silver Block",
 
   "item.return_of_the_taint.tainted_slime": "Tainted Slime",
+  "item.return_of_the_taint.raw_silver": "Raw Silver",
+  "item.return_of_the_taint.silver_ingot": "Silver Ingot",
+  "item.return_of_the_taint.silver_nugget": "Silver Nugget",
 
   "sounds.return_of_the_taint.taint_soil_break": "Taint Soil Breaks",
   "sounds.return_of_the_taint.taint_soil_step": "Taint Soil Step",
